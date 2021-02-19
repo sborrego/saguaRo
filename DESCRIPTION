@@ -1,13 +1,15 @@
 Package: saguaRo
-Title: What the Package Does (One Line, Title Case)
+Title: Arizona desert colors in R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Stacey",
+           family = "Borrego",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "staceyborrego@gmail.com")
+Description: Combining Arizona's desert beauty and the exciting world of data
+visualization. This package highlights the beautiful images taken in the Sonoran 
+desert as captured by Tucson residents and friends of the Arizona-Sonora Desert Museum.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/sborrego/saguaRo
