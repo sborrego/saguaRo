@@ -6,11 +6,16 @@ Authors@R:
            family = "Borrego",
            role = c("aut", "cre"),
            email = "staceyborrego@gmail.com")
-Description: Combining Arizona's desert beauty and the exciting world of data
-visualization. This package highlights the beautiful images taken in the Sonoran 
-desert as captured by Tucson residents and friends of the Arizona-Sonora Desert Museum.
+Description: Combining Arizona's desert beauty and the exciting world of data visualization. This package highlights the beautiful images taken in the Sonoran desert as captured by Tucson residents and friends of the Arizona-Sonora Desert Museum.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/sborrego/saguaRo
 BugReports: https://github.com/sborrego/saguaRo/issues
+RoxygenNote: 7.1.1
+Imports: 
+    ggplot2,
+    grDevices,
+    gridExtra
+Suggests: 
+    packcircles
