@@ -43,8 +43,6 @@ all_saguaro()
 
 Forgot the colors in the color palette of your choice? No problem!
 
-<img src="/Users/stacey/Data/GitHub/saguaRo/figures/color_pal/all.pdf">
-
 ``` r
 library(saguaRo)
 display_saguaro("bloom")
@@ -55,7 +53,7 @@ display_saguaro("bloom")
 Need to see the your color palette of choice in action?
 
 ``` r
-plot_saguaro("coyote", "circle")
+plot_saguaro("oriole", "circle")
 ```
 
 <img src="man/figures/README-mpg-1.png" width="100%" />
