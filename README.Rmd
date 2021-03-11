@@ -41,7 +41,7 @@ devtools::install_github("sborrego/saguaRo")
 
 Welecome to the desert! These are the color palettes and names available in saugaRo.  
 
-```{r include = FALSE}
+```{r}
 library(saguaRo)
 all_saguaro()
 ```
@@ -50,15 +50,19 @@ all_saguaro()
 
 Forgot the colors in the color palette of your choice? No problem!
 
+<img src="/Users/stacey/Data/GitHub/saguaRo/figures/color_pal/all.pdf">
+
 ```{r}
 library(saguaRo)
 display_saguaro("bloom")
 ```
 
+
+
 Need to see the your color palette of choice in action?
 
 ```{r mpg}
-plot_saguaro("bugs", "box")
+plot_saguaro("coyote", "circle")
 ```
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>. -->

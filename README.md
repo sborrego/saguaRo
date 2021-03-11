@@ -32,9 +32,18 @@ devtools::install_github("sborrego/saguaRo")
 Welecome to the desert! These are the color palettes and names available
 in saugaRo.
 
+``` r
+library(saguaRo)
+all_saguaro()
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
 ### Use
 
 Forgot the colors in the color palette of your choice? No problem!
+
+<img src="/Users/stacey/Data/GitHub/saguaRo/figures/color_pal/all.pdf">
 
 ``` r
 library(saguaRo)
@@ -46,7 +55,7 @@ display_saguaro("bloom")
 Need to see the your color palette of choice in action?
 
 ``` r
-plot_saguaro("bugs", "box")
+plot_saguaro("coyote", "circle")
 ```
 
 <img src="man/figures/README-mpg-1.png" width="100%" />

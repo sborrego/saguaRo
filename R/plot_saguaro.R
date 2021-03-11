@@ -23,20 +23,9 @@ plot_saguaro <- function(name = "bloom",
   pal <- saguaro(name, n)
   plot_names <- c("box", "gradient", "hex", "density")
 
-  box_data <- data.frame(
-    AA = rnorm(100, mean = 3, sd = 5),
-    BB = rnorm(100, mean = 4, sd = 5),
-    CC = rnorm(100, mean = 6, sd = 5),
-    DD = rnorm(100, mean = 10, sd = 5),
-    EE = rnorm(100, mean = 10, sd = 5),
-    FF = rnorm(100, mean = 4.5, sd = 5),
-    GG = rnorm(100, mean = 7, sd = 5),
-    HH = rnorm(100, mean = 8, sd = 3)
-    )
-
   if (missing(plot)) {
     warning(
-      "Plot type was not provided. Valid options include: box, gradient, hex, density",
+      "Plot type was not provided. Valid options include: box, circle, density, gradient, hex",
       paste("\n Returning boxplot using", name,
             "color palette",  sep = " ")
     )

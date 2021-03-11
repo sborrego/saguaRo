@@ -34,7 +34,8 @@ display_saguaro <- function(name) {
       ylab = " ",
       xaxt = "n",
       yaxt = "n",
-      bty = "n"
+      bty = "n",
+      cex = 0.8
     )
   })
 }
