@@ -6,8 +6,8 @@
 Have you ever wanted your data visualizations to represent the beauty of
 Arizona? Maybe you haven’t yet realized this desire, but this color
 palette package is perfect for you! This is a fun project for me that I
-put together to feauture the many colors of the beautiful Arizona
-desert. Enjoy!
+put together to feature the many colors of the beautiful Arizona desert.
+Enjoy!
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -18,7 +18,7 @@ desert. Enjoy!
 <!-- install.packages("saguaRo") -->
 <!-- ``` -->
 
-This package is currently progress - errors may occur!  
+WARNING: This package is currently progress - errors may occur!  
 You can install the development version from
 [GitHub](https://github.com/) with:
 
