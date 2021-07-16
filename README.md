@@ -18,7 +18,6 @@ Enjoy!
 <!-- install.packages("saguaRo") -->
 <!-- ``` -->
 
-WARNING: This package is currently progress - errors may occur!  
 You can install the development version from
 [GitHub](https://github.com/) with:
 
@@ -29,7 +28,7 @@ devtools::install_github("sborrego/saguaRo")
 
 ## Colors
 
-Welecome to the desert! These are the color palettes and names available
+Welcome to the desert! These are the color palettes and names available
 in saugaRo.
 
 ``` r
@@ -41,7 +40,9 @@ all_saguaro()
 
 ### Use
 
-Forgot the colors in the color palette of your choice? No problem!
+Forgot the colors in the color palette of your choice? No problem! Just
+use the function `display_saguaro()` with any color palette name and see
+the beauty of the desert appear before your eyes!
 
 ``` r
 library(saguaRo)
@@ -50,7 +51,10 @@ display_saguaro("bloom")
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-Need to see the your color palette of choice in action?
+Need to see the your color palette of choice in action ASAP? Use
+`plot_saguaro()` with any color palette name and plot selected boxplot
+(box), density (density), dotplot (gradient), or circular packing chart
+(circle).
 
 ``` r
 plot_saguaro("oriole", "circle")
