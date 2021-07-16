@@ -58,7 +58,7 @@ display_saguaro("bloom")
 ```
 
 
-Need to see the your color palette of choice in action ASAP? Use `plot_saguaro()` with any color palette name and plot selected boxplot (box), density (density), dotplot (gradient), or  circular packing chart (circle).
+Need to see your color palette of choice in action ASAP? Use `plot_saguaro()` with any color palette name and plot selected boxplot (box), density (density), dotplot (gradient), or  circular packing chart (circle).
 
 ```{r mpg}
 plot_saguaro("oriole", "circle")

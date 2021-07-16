@@ -51,7 +51,7 @@ display_saguaro("bloom")
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-Need to see the your color palette of choice in action ASAP? Use
+Need to see your color palette of choice in action ASAP? Use
 `plot_saguaro()` with any color palette name and plot selected boxplot
 (box), density (density), dotplot (gradient), or circular packing chart
 (circle).
