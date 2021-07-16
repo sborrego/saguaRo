@@ -4,10 +4,10 @@
 #' @import ggplot2
 #' @importFrom packcircles circleProgressiveLayout circleLayoutVertices
 #' @importFrom grDevices colorRampPalette
-#' @param name The name of color palette in saugaRo. Use `names(saugaro_pal)`
+#' @param name The name of color palette in saguaRo. Use `names(saguaro_pal)`
 #' to list all valid names.
 #' @param plot The name of pre-made plot to visualize indicated color palette.
-#' Valid options are: box, circle, density, gradient.
+#' Valid options are: box, gradient, density, circle
 #' @param n An integer limiting the number of colors used from the selected
 #' color palette.
 #' @examples plot_saguaro()
@@ -21,11 +21,11 @@ plot_saguaro <- function(name = "bloom",
                          plot = "box",
                          n = length(saguaro(name))) {
   pal <- saguaro(name, n)
-  plot_names <- c("box", "gradient", "hex", "density")
+  plot_names <- c("box", "gradient", "density", "circle")
 
   if (missing(plot)) {
     warning(
-      "Plot type was not provided. Valid options include: box, circle, density, gradient, hex",
+      "Plot type was not provided. Valid options include: box, density, gradient, circle",
       paste("\n Returning boxplot using", name,
             "color palette",  sep = " ")
     )
@@ -84,7 +84,7 @@ plot_saguaro <- function(name = "bloom",
       ggtitle(name)
   } else if (!(name %in% plot_names)) {
     warning(
-      "Plot type is not valid. Options include: box, gradient, hex, density",
+      "Plot type is not valid. Options include: box, gradient, density, circle",
       paste("\n Returning boxplot using", name,
             "color palette",  sep = " ")
     )
