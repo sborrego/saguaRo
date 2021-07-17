@@ -25,21 +25,27 @@ plot_saguaro <- function(name = "bloom",
 
   if (missing(plot)) {
     warning(
-      "Plot type was not provided. Valid options include: box, density, gradient, circle",
+      "Plot type was not provided. Valid options include: box, density,
+      gradient, circle",
       paste("\n Returning boxplot using", name,
             "color palette",  sep = " ")
     )
     return(boxplot(box_data[, 1:length(pal)],
                    col = pal,
                    main = name))
-  } else if (plot == "box") {
-    boxplot(box_data[, 1:length(pal)],
+  } else if (!(name %in% names(saguaro_pal))) {
+    warning(
+      paste(name, "is not a valid color palette name for saguaRo. \n"),
+      "Returning saguaRo color palette names."
+    )
+    return(names(saguaro_pal))
+    } else if (plot == "box") {
+      boxplot(box_data[, 1:length(pal)],
             col = pal,
             main = name)
   } else if (plot == "circle") {
     circle_data <- data.frame(group = LETTERS[1:20],
                               value = sample(seq(1, 100), 20))
-
     packing <-
       circleProgressiveLayout(circle_data$value,
                               sizetype = 'area')
