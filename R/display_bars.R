@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @import ggplot2
-#' @param name The name of color palette in saugaRo. Use `names(saugaro_pal)`
+#' @param name The name of color palette in saguaRo. Use `names(saguaro_pal)`
 #' to list all valid names.
 #' @return An image of the requested color palette in saguaRo
 #' @examples display_bars("bloom")

@@ -1,7 +1,7 @@
 #' Display individual color palettes in saguaRo
 #'
 #' @export
-#' @param name The name of color palette in saugaRo. Use `names(saugaro_pal)`
+#' @param name The name of color palette in saguaRo. Use `names(saguaro_pal)`
 #' to list all valid names.
 #' @examples display_saguaro("gila")
 #'

@@ -7,7 +7,7 @@
 saguaro(name, n)
 }
 \arguments{
-\item{name}{The name of color palette in saugaRo. Use `names(saugaro_pal)`
+\item{name}{The name of color palette in saguaRo. Use `names(saguaro_pal)`
 to list all valid names.}
 
 \item{n}{An integer limiting the number of colors used from the selected

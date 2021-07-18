@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @importFrom grDevices col2rgb rgb
-#' @param name The name of color palette in saugaRo. Use `names(saugaro_pal)`
+#' @param name The name of color palette in saguaRo. Use `names(saguaro_pal)`
 #' to list all valid names.
 #' @param n An integer limiting the number of colors used from the selected
 #' color palette.

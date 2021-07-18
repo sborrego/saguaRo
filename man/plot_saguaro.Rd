@@ -2,22 +2,22 @@
 % Please edit documentation in R/plot_saguaro.R
 \name{plot_saguaro}
 \alias{plot_saguaro}
-\title{Makes simple graphs to visual available color palettes in saugaRo.}
+\title{Makes simple graphs to visual available color palettes in saguaRo.}
 \usage{
 plot_saguaro(name = "bloom", plot = "box", n = length(saguaro(name)))
 }
 \arguments{
-\item{name}{The name of color palette in saugaRo. Use `names(saugaro_pal)`
+\item{name}{The name of color palette in saguaRo. Use `names(saguaro_pal)`
 to list all valid names.}
 
 \item{plot}{The name of pre-made plot to visualize indicated color palette.
-Valid options are: box, circle, density, gradient.}
+Valid options are: box, gradient, density, circle}
 
 \item{n}{An integer limiting the number of colors used from the selected
 color palette.}
 }
 \description{
-Makes simple graphs to visual available color palettes in saugaRo.
+Makes simple graphs to visual available color palettes in saguaRo.
 }
 \examples{
 plot_saguaro()

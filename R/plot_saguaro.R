@@ -1,4 +1,4 @@
-#' Makes simple graphs to visual available color palettes in saugaRo.
+#' Makes simple graphs to visual available color palettes in saguaRo.
 #'
 #' @export
 #' @import ggplot2
