@@ -52,8 +52,8 @@ display_saguaro("bloom")
 
 ### Use
 
-But how do you even use it? Use the function saguaro() with the palette
-name and optionally the number of colors you would like.
+But how do you even use it? Use the function `saguaro()` with the
+palette name and optionally the number of colors you would like.
 
 ``` r
 library(saguaRo)
