@@ -36,7 +36,7 @@ devtools::install_github("sborrego/saguaRo")
 
 ## Colors
 
-Welcome to the desert! These are the color palettes and names available in saugaRo.  
+Welcome to the desert! These are the color palettes and names available in `saguaRo`.  
 
 ```{r}
 library(saguaRo)
@@ -65,6 +65,21 @@ pie(n_list,
     main = "Super Basic Pie Chart", 
     col = saguaro("bloom", length(n_list)))
 ```
+
+Take your data visualizations even futher by extending the vibrant colors of 
+`saguaRo` with the essential [`RColorBrewer`](https://www.r-graph-gallery.com/38-rcolorbrewers-palettes.html) package.
+
+``` {r}
+library(saguaRo)
+library(RColorBrewer)
+
+num_data <- runif(20, 3, 12)
+
+pie(num_data,
+    main = "Color Ramp Pie Chart",
+    col = colorRampPalette(saguaro("mariposa"))(20))
+```
+
 
 Need to see your color palette of choice in action ASAP? Use `plot_saguaro()` with any color palette name and plot selected boxplot (box), density (density), dotplot (gradient), or  circular packing chart (circle).
 

@@ -30,7 +30,7 @@ devtools::install_github("sborrego/saguaRo")
 ## Colors
 
 Welcome to the desert! These are the color palettes and names available
-in saugaRo.
+in `saguaRo`.
 
 ``` r
 library(saguaRo)
@@ -66,6 +66,24 @@ pie(n_list,
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+
+Take your data visualizations even futher by extending the vibrant
+colors of `saguaRo` with the essential
+[`RColorBrewer`](https://www.r-graph-gallery.com/38-rcolorbrewers-palettes.html)
+package.
+
+``` r
+library(saguaRo)
+library(RColorBrewer)
+
+num_data <- runif(20, 3, 12)
+
+pie(num_data,
+    main = "Color Ramp Pie Chart",
+    col = colorRampPalette(saguaro("mariposa"))(20))
+```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 Need to see your color palette of choice in action ASAP? Use
 `plot_saguaro()` with any color palette name and plot selected boxplot
