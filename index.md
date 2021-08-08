@@ -22,7 +22,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/fpp.39379799314/10155961909294315/?type=3&theater)  
 **Photo Credit**: Jay Pierstorff
 
-<img src="./figures/coyote.jpg" height="225"> <img src="./figures/coyote_circle.jpg" height="225">
+<img src="./figures/coyote.jpg" height="230"> <img src="./figures/coyote_circle.jpg" height="230">
 
 
 ### Gila
@@ -53,4 +53,4 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10156441631724315/?type=3&theater)  
 **Photo Credit**: Jay Pierstroff
 
-<img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="220"> <img src="./figures/oriole_corr.jpg" height="220">
+<img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="240"> <img src="./figures/oriole_corr.jpg" height="240">
