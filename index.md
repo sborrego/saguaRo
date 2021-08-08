@@ -6,7 +6,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/10156459866659315)  
 **Photo Credit**: Unknown
 
-<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="225">
+<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="250">
  
 
 ### Bugs
@@ -14,7 +14,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155946974709315/?type=3&theater)  
 **Photo Credit**: Lauren Nichols
 
-<img src="./figures/bloom_ant_lauren_nichols.jpg" height="300"> <img src="./figures/bugs_areaplot.jpg" height="300">
+<img src="./figures/bloom_ant_lauren_nichols.jpg" height="250"> <img src="./figures/bugs_areaplot.jpg" height="250">
 
 
 ### Coyote
@@ -38,14 +38,14 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10158124433149315/)  
 **Photo Credit**: Rodolfo Vega (Instagram: @rodolfovegafoto)
 
-<img src="./figures/gopher_snake.jpg" height="300"> <img src="./figures/gopher_ridgeline.jpg" height="300">
+<img src="./figures/gopher_snake.jpg" height="300"> <img src="./figures/gopher_ridgeline.jpg" height="250">
 
 
 ### Mariposa
 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155180359064315/?type=3&theater)  
 **Photo Credit**: Rhonda Spencer  
-<img src="./figures/mariposa.jpg" height="300"> <img src="./figures/mariposa_jitter.jpg" height="300">
+<img src="./figures/mariposa.jpg" height="300"> <img src="./figures/mariposa_jitter.jpg" height="250">
 
 
 ### Oriole
@@ -53,4 +53,4 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10156441631724315/?type=3&theater)  
 **Photo Credit**: Jay Pierstroff
 
-<img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="300"> <img src="./figures/oriole_corr.jpg" height="300">
+<img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="250"> <img src="./figures/oriole_corr.jpg" height="300">
