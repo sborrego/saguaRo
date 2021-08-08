@@ -9,10 +9,11 @@ palette package is perfect for you! This is a fun project for me that I
 put together to feature the many colors of the beautiful Arizona desert.
 Enjoy!
 
-<!-- badges: start -->
-<!-- badges: end -->
-<!-- The goal of saguaRo is to ... -->
-<!-- ## Installation -->
+For more examples and beautiful Arizona photos visit
+<https://sborrego.github.io/saguaRo/>
+
+## Installation
+
 <!-- You can install the released version of saguaRo from [CRAN](https://CRAN.R-project.org) with: -->
 <!-- ``` r -->
 <!-- install.packages("saguaRo") -->
