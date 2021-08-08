@@ -46,8 +46,6 @@ library(saguaRo)
 all_saguaro()
 ```
 
-### Use
-
 Forgot the colors in the color palette of your choice? No problem! Just use the 
 function `display_saguaro()` with any color palette name and see the beauty of
 the desert appear before your eyes!
@@ -57,6 +55,19 @@ library(saguaRo)
 display_saguaro("bloom")
 ```
 
+### Use
+
+But how do you even use it? Use the function saguaro() with the palette name and optionally the number of colors you would like. 
+
+``` {r}
+library(saguaRo)
+
+n_list <- c(4, 3, 6, 5, 7)
+
+pie(n_list, 
+    main = "Super Basic Pie Chart", 
+    col = saguaro("bloom", length(n_list)))
+```
 
 Need to see your color palette of choice in action ASAP? Use `plot_saguaro()` with any color palette name and plot selected boxplot (box), density (density), dotplot (gradient), or  circular packing chart (circle).
 

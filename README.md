@@ -9,8 +9,6 @@ palette package is perfect for you! This is a fun project for me that I
 put together to feature the many colors of the beautiful Arizona desert.
 Enjoy!
 
-For more examples and beautiful Arizona photos visit https://sborrego.github.io/saguaRo/
-
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- The goal of saguaRo is to ... -->
@@ -40,8 +38,6 @@ all_saguaro()
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
-### Use
-
 Forgot the colors in the color palette of your choice? No problem! Just
 use the function `display_saguaro()` with any color palette name and see
 the beauty of the desert appear before your eyes!
@@ -53,6 +49,23 @@ display_saguaro("bloom")
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
+### Use
+
+But how do you even use it? Use the function saguaro() with the palette
+name and optionally the number of colors you would like.
+
+``` r
+library(saguaRo)
+
+n_list <- c(4, 3, 6, 5, 7)
+
+pie(n_list, 
+    main = "Super Basic Pie Chart", 
+    col = saguaro("bloom", length(n_list)))
+```
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+
 Need to see your color palette of choice in action ASAP? Use
 `plot_saguaro()` with any color palette name and plot selected boxplot
 (box), density (density), dotplot (gradient), or circular packing chart
@@ -63,19 +76,6 @@ plot_saguaro("oriole", "circle")
 ```
 
 <img src="man/figures/README-mpg-1.png" width="100%" />
-
-# Use
-
-But how do you even use it? Use the function `saguaro()` with the palette name and optionally the number of colors you would like. 
-
-To get an even better experience, combine saguaRo with the amazing RColorBrewer package.
-
-``` r
-n_list <- c(4, 3, 6, 5, 7)
-
-pie(n_list, main = "Random Numbers", col = saguaro("bloom", length(n_list)),
-   labels = c("A","B","C","D","E"))
-```   
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>. -->
 <!-- You can also embed plots, for example: -->
