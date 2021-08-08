@@ -1,5 +1,4 @@
-# saguaRo
-Arizona desert colors in R
+Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to the resilient wildlife. No where better captures this beauty than the [Arizona-Sonora Desert Museum](https://www.desertmuseum.org). Using their amazing photos, I have curated some of my favorite images and their corresponding color palettes. You can download [saguaRo](https://github.com/sborrego/saguaRo) from GitHub and start using the colors of the desert to liven up your data today! ENJOY
 
 
 ### Bloom
