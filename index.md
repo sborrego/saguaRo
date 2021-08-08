@@ -14,7 +14,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155946974709315/?type=3&theater)  
 **Photo Credit**: Lauren Nichols
 
-<img src="./figures/bloom_ant_lauren_nichols.jpg" height="250"> <img src="./figures/bugs_areaplot.jpg" height="250">
+<img src="./figures/bloom_ant_lauren_nichols.jpg" height="200"> <img src="./figures/bugs_areaplot.jpg" height="200">
 
 
 ### Coyote
@@ -45,7 +45,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155180359064315/?type=3&theater)  
 **Photo Credit**: Rhonda Spencer  
-<img src="./figures/mariposa.jpg" height="200"> <img src="./figures/mariposa_jitter.jpg" height="250">
+<img src="./figures/mariposa.jpg" height="200"> <img src="./figures/mariposa_jitter.jpg" height="200">
 
 
 ### Oriole
