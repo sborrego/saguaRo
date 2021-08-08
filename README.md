@@ -64,6 +64,19 @@ plot_saguaro("oriole", "circle")
 
 <img src="man/figures/README-mpg-1.png" width="100%" />
 
+# Use
+
+But how do you even use it? Use the function `saguaro()` with the palette name and optionally the number of colors you would like. 
+
+To get an even better experience, combine saguaRo with the amazing RColorBrewer package.
+
+``` r
+n_list <- c(4, 3, 6, 5, 7)
+
+pie(n_list, main = "Random Numbers", col = saguaro("bloom", length(n_list)),
+   labels = c("A","B","C","D","E"))
+```   
+
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>. -->
 <!-- You can also embed plots, for example: -->
 <!-- ```{r pressure, echo = FALSE} -->
