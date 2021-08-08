@@ -7,7 +7,7 @@ Arizona desert colors in R
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/10156459866659315)  
 **Photo Credit**: Unknown
 
-<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="300">
+<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="225">
  
 
 ### Bugs
@@ -55,14 +55,3 @@ Arizona desert colors in R
 **Photo Credit**: Jay Pierstroff
 
 <img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="300"> <img src="./figures/oriole_corr.jpg" height="300">
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sborrego/saguaRo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
