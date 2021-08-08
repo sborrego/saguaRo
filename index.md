@@ -6,7 +6,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/10156459866659315)  
 **Photo Credit**: Unknown
 
-<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="280">
+<img src="./figures/bloom.jpg" height="280"> <img src="./figures/bloom_stacked_plot.jpg" height="280">
  
 
 ### Bugs
@@ -22,7 +22,7 @@ Welcome to the desert! Arizona is full of beauty from its remarkable sunsets to 
 **Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/fpp.39379799314/10155961909294315/?type=3&theater)  
 **Photo Credit**: Jay Pierstorff
 
-<img src="./figures/coyote.jpg" height="230"> <img src="./figures/coyote_circle.jpg" height="230">
+<img src="./figures/coyote.jpg" height="250"> <img src="./figures/coyote_circle.jpg" height="250">
 
 
 ### Gila
