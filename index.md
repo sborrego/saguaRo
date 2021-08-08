@@ -1,30 +1,61 @@
-## Welcome to GitHub Pages
+# saguaRo
+Arizona desert colors in R
 
-You can use the [editor on GitHub](https://github.com/sborrego/saguaRo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Bloom
 
-### Markdown
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/10156459866659315)  
+**Photo Credit**: Unknown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="./figures/bloom.jpg" height="300"> <img src="./figures/bloom_stacked_plot.jpg" height="300">
+ 
 
-```markdown
-Syntax highlighted code block
+### Bugs
 
-# Header 1
-## Header 2
-### Header 3
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155946974709315/?type=3&theater)  
+**Photo Credit**: Lauren Nichols
 
-- Bulleted
-- List
+<img src="./figures/bloom_ant_lauren_nichols.jpg" height="300"> <img src="./figures/bugs_areaplot.jpg" height="300">
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Coyote
 
-[Link](url) and ![Image](src)
-```
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/fpp.39379799314/10155961909294315/?type=3&theater)  
+**Photo Credit**: Jay Pierstorff
+
+<img src="./figures/coyote.jpg" height="300"> <img src="./figures/coyote_circle.jpg" height="300">
+
+
+### Gila
+
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155933673404315/?type=3&theater)  
+**Photo Credit**: Jay Pierstorff
+
+<img src="./figures/gila_monster.png" height="300"> <img src="./figures/gila_circos.jpg" height="300">
+
+
+### Gopher
+
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10158124433149315/)  
+**Photo Credit**: Rodolfo Vega (Instagram: @rodolfovegafoto)
+
+<img src="./figures/gopher_snake.jpg" height="300"> <img src="./figures/gopher_ridgeline.jpg" height="300">
+
+
+### Mariposa
+
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10155180359064315/?type=3&theater)  
+**Photo Credit**: Rhonda Spencer  
+<img src="./figures/mariposa.jpg" height="300"> <img src="./figures/mariposa_jitter.jpg" height="300">
+
+
+### Oriole
+
+**Source**: [Arizona-Sonora Desert Museum Facebook](https://www.facebook.com/desertmuseum/photos/a.414296809314/10156441631724315/?type=3&theater)  
+**Photo Credit**: Jay Pierstroff
+
+<img src="./figures/ocotillo_hoodedOriole_jay_pierstroff.jpg" height="300"> <img src="./figures/oriole_corr.jpg" height="300">
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
